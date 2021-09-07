@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <div id='form'></div>        
+</body>
+
+<script>
+    // Este Array de elementos conforman el formulario.
+    const inputsForm = [
+        {
+            label: 'Nombre',
+            name: 'name',
+            type: 'text',
+            required: true
+        },
+        {
+            label: 'Apellido',
+            name: 'lastname',
+            type: 'text',
+            required: true
+        },
+        {
+            label: 'Correo elctronico',
+            name: 'email',
+            type: 'email',
+            required: true
+        },
+        {
+            label: 'Contraseña',
+            name: 'password',
+            type: 'password',
+            required: true
+        },
+        {
+            label: 'Direccion',
+            name: 'address',
+            type: 'text',
+            required: false,
+            class: 'form-input'
+        }
+    ]
+
+    // Este método va a renderizar el componente Form.
+    const Form = inputsForm => {  
+        let inputs = ''
+        inputsForm.forEach(input => inputs = inputs + Input(input))
+        return `
+            <form onsubmit='handleSubmit(event)'>                                
+                ${inputs}
+                <button type='submit'>Send!</button>
+            </form>
+        `
+    }
+    
+    // Este método va a renderizar el componente Input.
+    const Input = data => {
+        return `
+            <section>
+                <label for='${data.name}'>${data.label}</label>
+                <input 
+                    id='${data.name}'
+                    name='${data.name}'
+                    type='${data.type}'
+                    ${data.required && 'required'}
+                />
+            </section>
+        `
+    }
+
+    // Este método va a controlar el sumbit del formulario.
+    const handleSubmit = event => {                
+        event.preventDefault();
+        let response = {}
+        inputsForm.forEach(input => {
+            const value = document.getElementById(input.name).value
+            response[input.name] = value
+        })
+        console.table(response)
+    }
+
+    // Este método va a renderizar mi componente en el html.
+    const render = (component, container) => container.innerHTML = component
+
+    // renderizo la aplicación
+    render(Form(inputsForm), form)
+</script>
+
+</html>
