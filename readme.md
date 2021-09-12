@@ -25,5 +25,5 @@ el link al repo es el siguiente: [e-commerce-18575](https://github.com/BraianVay
 
 ## Proyecto final que realice para la **camada 11360**
 
-**Aquila Store** es el proyecto que realice durante el cursado del curso de React, pueden ver el proyecto en este link [Aquila Store](https://github.com/BraianVaylet/AquilaStore)
+> **Aquila Store** es el proyecto que realice durante el cursado del curso de React, pueden ver el proyecto en este link [Aquila Store](https://github.com/BraianVaylet/AquilaStore)
 
