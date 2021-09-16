@@ -11,6 +11,12 @@
 **Clase 3:** JSX & transpiling
 > Sugar Syntax (es6 al es10)
 
+**Clase 4:** Componentes I
+> ...
+
+**Clase 5:** Componentes II
+> Componente Contador con useState
+
 ---
 
 ## Proyecto e-commerce
