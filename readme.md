@@ -2,20 +2,24 @@
 
 ## Notas de clases
 
-**Clase 1:** Nivelación
-> Ejercicio crear formulario.
+**Clase 1:** [Nivelación](https://drive.google.com/drive/u/0/folders/1jJDT1cQBUegH0pKKI2HDfu3Ag1sqXdpS)
+> Ejercicio de la clase: crear formulario.
 
-**Clase 2:** Instalación y configuración del entorno
+**Clase 2:** [Instalación y configuración del entorno](https://drive.google.com/drive/u/0/folders/1hbGho5HA1TTwOp8V8BlPs4tsXXLInHK8)
 > Creacion primer proyecto en react.
 
-**Clase 3:** JSX & transpiling
-> Sugar Syntax (es6 al es10)
+**Clase 3:** [JSX & transpiling](https://drive.google.com/drive/u/0/folders/1YcZqA97VmXm6xO22saOEvwo0r8zzC1SI)
+> Sugar Syntax (es6 al es10).
 
-**Clase 4:** Componentes I
+**Clase 4:** [Componentes I](https://drive.google.com/drive/u/0/folders/1JHBufmT5TLe3J4Pr5m107ygd0IOYdSic)
 > ...
 
-**Clase 5:** Componentes II
-> Componente Contador con useState
+**Clase 5:** [Componentes II](https://drive.google.com/drive/u/0/folders/1puPtvQHV6FLpJiVgK6T4x8krS5Xo1Zst)
+> Componente Contador con useState.
+
+**Clase 6:** [Promises, asincronía y MAP](https://drive.google.com/drive/u/0/folders/1444FvRR_UPn6xH5I48D0lL96UKENBy0M)
+> Ejercicio de la clase: Crear una promesa.
+> Ejemplo en React, usando promesas y async-await.
 
 ---
 
@@ -31,5 +35,4 @@ el link al repo es el siguiente: [e-commerce-18575](https://github.com/BraianVay
 
 ## Proyecto final que realice para la **camada 11360**
 
-> **Aquila Store** es el proyecto que realice durante el cursado del curso de React, pueden ver el proyecto en este link [Aquila Store](https://github.com/BraianVaylet/AquilaStore)
-
+> **Aquila Store** es el proyecto que realice durante el cursado del curso de React, pueden ver el proyecto en este link [Aquila Store](https://github.com/BraianVaylet/AquilaStore). Espero que les pueda servir como ejemplo o inspiración para desarrollar sus propios proyectos...

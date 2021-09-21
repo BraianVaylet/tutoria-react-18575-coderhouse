@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  padding: 200px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.loading {
+  font-size: 100px;  
+}
