@@ -21,6 +21,9 @@
 > Ejercicio de la clase: Crear una promesa.
 > Ejemplo en React, usando promesas y async-await.
 
+**Clase 7:** [Consumiendo API's](https://drive.google.com/drive/u/0/folders/15n8cVB2rIQQvEfo8PXYBYon7FSckoyCD)
+> Ejercicio de la clase: Consumir la [pokeApi](https://pokeapi.co/) usando Fetch.
+
 ---
 
 ## Proyecto e-commerce
